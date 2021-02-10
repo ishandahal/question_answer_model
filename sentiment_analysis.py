@@ -1,7 +1,6 @@
 import streamlit as st
 from transformers import pipeline
 from transformers import Conversation
-import torch
 
 st.write("""
 I am a *chat bot*. I will respond based on your input to the best of my ability.
